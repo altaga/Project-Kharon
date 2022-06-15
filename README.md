@@ -60,15 +60,15 @@ With this we aim to provide several services to businesses and enterprises such 
 
 This is the landing page of our NFT "marketplace", imagine it as a platform such as SAP where you would manage your fleet of offline assets, tracking, sensor data and so forth.
 
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/758/019/datas/gallery.jpg">
+<img src="https://i.ibb.co/wNCHHJ8/image.png">
 
 In the device section after going through Metamask you'll get a look at your fleet of devices, from which you can choose to assigned to an NFTized asset to track it along a certain path that can be predetermined through a smart contract (in which the release can also be automated).
 
-<img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/758/017/datas/gallery.jpg">
+<img src="https://i.ibb.co/zNSk8QD/image.png">
 
 Here you can see how an NFTized asset looks at a glance in the webpage, you can also see the IoT data feed, the Solana link where that data is uploaded to and also the Polygon scan of said NFT with its information and metadata.
 
-<img src="https://i.ibb.co/bb2jgLD/Screenshot-from-2021-11-28-22-44-23.png">
+<img src="https://i.ibb.co/3d0DHh0/image.png">
 
 For more on the MVP you can check our main video to further our insight on the development of this project and to see IoT devices in real time action!
 
