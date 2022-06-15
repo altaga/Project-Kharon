@@ -1,0 +1,16 @@
+{
+  "name": "push2db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "upload": "ibmcloud fn action update /BlankDev_Covital/GetProductsByPubKey GetProductsByPubKey.zip --kind nodejs:16 --web true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.1.3",
+    "ibm-cloud-sdk-core": "^2.17.14"
+  }
+}
