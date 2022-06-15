@@ -13,7 +13,7 @@ https://twitter.com/KharonProtocol
 
 # Project-Kharon
 
-<img src="https://i.ibb.co/MDy0h9C/bot2.png" width="400">
+<img src="https://i.ibb.co/ChpKBM4/logo-6.png">
 
 Kharon is a platform that NFTizes offline assets and connects blockchains with the Internet of Things, powered by Polygon, Solana and Chainlink
 
