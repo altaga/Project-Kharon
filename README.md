@@ -26,8 +26,17 @@ The challenge for the first accelerator of the Call for code is to Improve suppl
 
 <img src="https://www.3plcentral.com/hubfs/3PL%20Central/Lp%20Image/Supply%20Chain%20Disruptions%20.png"> 
 
+- Supply chain issues have been made much worse by the COVID-19 pandemic.
+- The economic environment has become more challenging, and sustainability is being emphasized.
+
+Among the worse effects, the computer chip shortage had a profound effect across many industries including automotive, manufacturing and many others. Concerns have also been raised about everything from lithium supply for electric vehicle batteries to restaurant food supplies to even coffee shortages.
+
+
 
 https://www.3plcentral.com/2022-state-of-the-third-party-logistics-industry-report
+https://www.weforum.org/agenda/2022/01/challenges-supply-chains-covid19-2022
+
+We need a way to improve on all these issues.
 
 
 <hr/>
