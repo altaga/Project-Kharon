@@ -84,24 +84,36 @@ All communication with the server and the website is done through API Management
 
 Services used:
 
-- Chainlink VRF, to add Verifiable Randomness to NFTs, quite important when managing IoT devices.
-   - https://chain.link/education/nfts
-   - Contract here: https://github.com/EddOliver/Kharon/tree/main/Contract
-
+- IBM Bluemix:
+  - Cloud Functions:
+    - Helium - Solana:
+      - Push Data to Solana.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/AddToSolana
+    - Cloudant:
+      - Add Device to DB.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddDeviceToDB
+      - Add Product to DB.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddProductToDB
+      - Get All Products.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetAllProducts
+      - Get Products by Public Key.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetDevicesFromDB
+      - Get Devices by Public Key.
+        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetProductsByPubKey
+   
 - Helium Network - LoraWAN Main Service.
   - https://www.helium.com/
 
-- Solana Cli - Interaction with Solana to catch IoT datafeeds and record them in the blockchain.
-  - https://docs.solana.com/cli
+- Solana JS SDK - Interaction with Solana to catch IoT datafeeds and record them in the blockchain.
+  - https://solana-labs.github.io/solana-web3.js
 
 - Polygon - To mint NFTs via smart contracts and the main backend and have EVM compatibility.
- - https://polygon.technology/
+   - https://polygon.technology/
+   - NFT Contract here: 
+     - https://github.com/EddOliver/Kharon/tree/main/Contract
 
 - Alchemy - All smart contract information such as metadata and some variables are managed through Alchemy.
   - https://www.alchemy.com/layer2/polygon
-
-- Moralis - We Respek da pump so a lot of our front end uses Moralis' APIs.
-  -https://moralis.io/
 
 ## Market analysis
 
