@@ -1,5 +1,5 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://www.kharonprotocol.com/) [<img src="https://img.shields.io/badge/View-Video-red">](PENDING)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://www.kharonprotocol.com/) [<img src="https://img.shields.io/badge/View-Video-red">]([PENDING](https://youtu.be/h4nL_1s9dzI))
 
 #### Live: https://www.kharonprotocol.com/
 
@@ -9,7 +9,7 @@ https://www.facebook.com/KharonProtocol
 
 https://twitter.com/KharonProtocol
 
-### Main Video!: PENDING
+### Main Video!: https://youtu.be/h4nL_1s9dzI
 
 # Project-Kharon
 
@@ -19,6 +19,28 @@ Kharon is a platform that NFTizes offline assets and connects blockchains with t
 
 
 ## Introduction and Problem Statement
+
+The challenge for the first accelerator of the Call for code is to Improve supply chain transparency and traceability to bring fast and accurate visibility to sustainability issues where they arise.
+
+“Disruptions to the supply chain aren’t over yet. It is predicted that supply chain issues facing the United States will continue into 2022 citing demand as one of the top contributors.”
+
+<img src="https://www.3plcentral.com/hubfs/3PL%20Central/Lp%20Image/Supply%20Chain%20Disruptions%20.png"> 
+
+
+https://www.3plcentral.com/2022-state-of-the-third-party-logistics-industry-report
+
+
+<hr/>
+
+## Our Solution
+
+NFTizing offline assets and joining IoT with Blockchain, but without the downside.
+
+Namely the Solana blockchain with its speed and ease of development and the huge infrastructure of the Helium Network with its more than one hundred and eighty thousand LoRa Hotspots around the world.
+
+<img src="https://i.ibb.co/68yKS1h/interoperability.png" width="400">
+
+In addition to that we are incorporating Polygon as it is a better alternative to mint and host NFT while at the same time combining it with IPFS/Filecoin for the data storage, retrieval and management of smart contracts.
 
 IoT comes with several  use cases in different sectors, however, its wider application is caught sometimes behind security concerns over data storage or on the device itself. Will combining it with blockchain be the answer to all its woes? Our answer is yes, as the projects trying to tackle these problems surely reflect. But they all come with their set of drawbacks that must be tackled along the way.
 
@@ -33,28 +55,6 @@ NFTs provide provable control over any type of digital asset, including the “d
 Not only that it can be expanded to almost any industry available as almost every single one of them makes use of a warehouse and has to track parts and shipments to be made, and all of that can be tokenized.
 
 Warehousing is a very large expense for a manufacturing company, and inaccurate inventory can have a big impact on profitability. Conventional databases are well-known for user-entry errors, but inventory recorded as a blockchain entry can only exist in one place, and its digital identity moves with the physical item. Databases frequently have a single point of failure—like reliance on one vendor or one cloud provider—and a single unexpected event can cause a cascade of supply chain disruptions.
-
-<hr/>
-
-## Our Solution
-
-NFTizing offline assets and joining IoT with Blockchain, but without the downside.
-
-Namely the Solana blockchain with its speed and ease of development and the huge infrastructure of the Helium Network with its more than one hundred and eighty thousand LoRa Hotspots around the world.
-
-<img src="https://i.ibb.co/68yKS1h/interoperability.png" width="400">
-
-In addition to that we are incorporating Polygon as it is a better alternative to mint and host NFT while at the same time combining it with IPFS/Filecoin for the data storage, retrieval and management of smart contracts.
-
-Of course we need to secure this assets with verifyable randomness, so we will be using the Chainlink VRF for that.
-
-<img src="https://i.ibb.co/XbtYWq1/VRF.png">
-
-Importance of VFR according to Chainlink's documentation:
-
-"Chainlink VRF is a Verifiable Random Function that provides smart contracts and NFTs with a secure source of randomness backed by a cryptographic proof. The cryptographic proof serves as an audit trail proving the RNG operated in a tamper-proof manner. The cryptographic proof is then validated on-chain before delivering the random number to the consuming NFT contract, helping guarantee only truly random values are consumed. The strong security properties of Chainlink VRF help ensure neither the oracle, users, or developers can manipulate or predict the random number generated, resulting in NFTs that are assigned provably rare attributes and NFT collections distributed in a verifiably fair and unbiased manner."
-
-With this we aim to provide several services to businesses and enterprises such as provenance and asset tracking in a new, effectively secure way.
 
 ## At a glance
 
@@ -74,7 +74,7 @@ For more on the MVP you can check our main video to further our insight on the d
 
 ## How it's built
 
-Each of the IoT devices are connected to the Helium Network. They send the information through LoRaWAN to the network, once it gets there it is sent directly to our integration (an API) which works as a WebHook, this request reaches our NodeJS Express server.  It then  processes each of the hook calls and sends them to the solana blockchain through the Solana CLI, which is installed and configured on the server to communicate with the devnet directly.
+Each of the IoT devices are connected to the Helium Network. They send the information through LoRaWAN to the network, once it gets there it is sent directly to our integration (an API) which works as a WebHook, this request reaches our IBM Cloud function.  It then  processes each of the hook calls and sends them to the solana blockchain through the Solana CLI, which is installed and configured on the server to communicate with the devnet directly.
 
 System's Architecture:
 
