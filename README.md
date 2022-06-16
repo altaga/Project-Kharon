@@ -85,21 +85,23 @@ All communication with the server and the website is done through API Management
 Services used:
 
 - IBM Bluemix:
-  - Cloud Functions:
-    - Helium - Solana:
-      - Push Data to Solana.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/AddToSolana
-    - Cloudant:
-      - Add Device to DB.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddDeviceToDB
-      - Add Product to DB.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddProductToDB
-      - Get All Products.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetAllProducts
-      - Get Products by Public Key.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetDevicesFromDB
-      - Get Devices by Public Key.
-        - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetProductsByPubKey
+  - Helium - Cloud Function - Solana:
+    - Push Data to Solana.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/AddToSolana
+  - Cloud Functions - Cloudant:
+    - Add Device to DB.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddDeviceToDB
+    - Add Product to DB.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/AddProductToDB
+    - Get All Products.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetAllProducts
+    - Get Products by Public Key.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetDevicesFromDB
+    - Get Devices by Public Key.
+      - https://github.com/Blankit-Dev/Project-Kharon/tree/main/CloudFunctions/Cloudant/GetProductsByPubKey
+
+- NFT Storage - NFT IPFS Storage.
+  - https://nft.storage/
    
 - Helium Network - LoraWAN Main Service.
   - https://www.helium.com/
