@@ -125,7 +125,7 @@ Overall, technologies, such as RFID, sensors, location-based technologies, and i
 
 Asset Tracking Market was valued at USD 17.14 billion in 2020 and is expected to reach USD 34.82 billion by 2026 at a CAGR of 13.45% during the forecast period 2021 - 2026.
 
-<img src="https://inkwoodresearch.com/wp-content/uploads/edd/2020/10/Asset-Tracking-Market.jpg">
+<img src="https://i.ibb.co/BqjpS4V/global-asset-tracking.png">
 
 Reference: https://www.prnewswire.com/news-releases/34-82-billion-asset-tracking-markets---global-growth-trends-covid-19-impact-and-forecasts-report-2021-2026--301320916.html
 
